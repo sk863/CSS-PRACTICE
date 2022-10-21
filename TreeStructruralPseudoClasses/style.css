@@ -1,0 +1,32 @@
+
+ol li:nth-child(3){
+    border: 5px solid black;
+}
+
+ol li:nth-child(odd){
+    background-color: greenyellow;
+    border: 1px solid black;
+}
+
+
+ol li:nth-child(even){
+    background-color: lightcoral;
+    border: 2px solid blanchedalmond;
+}
+
+
+ol li:nth-of-type(19){
+    background-color: aqua;
+    border: 8px solid gray;
+}
+
+ol li:last-child{
+    font-size: 50px;
+    font-style: italic;
+}
+
+p::first-letter{
+    text-decoration: wavy;
+    font-size: x-large;
+}
+
