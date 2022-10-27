@@ -1,0 +1,30 @@
+h2{
+    background-color: rgb(220, 156, 177);
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px 10px 10px 10px ;
+}
+
+div{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+}
+
+div:nth-of-type(2){
+    background-color: paleturquoise;
+}
+
+div:nth-of-type(3){
+    background-color: rgb(20,30,40);
+}
+
+div:nth-of-type(4){
+    background-color: rgba(256, 300, 40 , 0.8);
+}
+
+
+div:nth-of-type(5){
+    background-color: gray;
+    padding: 10px 20px;
+}
