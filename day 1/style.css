@@ -43,6 +43,5 @@ input[type="text"]{
     border: 5px solid green;
 }
 ul~li{
-    border: 130px solid palevioletred;
-    background-color: black;
+    border: 1px solid paleturquoise;
 }
