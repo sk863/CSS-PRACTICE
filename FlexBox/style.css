@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+/* section{
+    display: flex;
+    border: 5px solid black;
+} */

@@ -1,0 +1,22 @@
+section{
+    width: 85vw;
+    padding: 9px;
+    /* height: 300px; */
+    border: 2px solid black;
+}
+
+div{
+    background-color: cadetblue;
+    margin: 5px;
+    border: 2px solid black;
+    height: 80px;
+    width: 80px;
+    transition-duration: 2s;
+}
+section:hover div{
+    margin-left: 600px;
+}
+
+div:nth-of-type(3){
+    transition-timing-function: cubic-bezier(1, 0, 0, 1);
+}

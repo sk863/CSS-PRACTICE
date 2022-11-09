@@ -1,0 +1,15 @@
+body{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    background-color: aqua;
+    border: 2px solid black;
+    height: 200px;
+    width: 150px;
+    justify-content: center;
+}

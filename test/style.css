@@ -1,0 +1,23 @@
+div{
+    height: 200px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    transition: 2s;
+    margin: 20px auto;
+    justify-content: center;
+    /* display: flex; */
+}
+
+div img{
+    height: 160px;
+    width: 80px;
+
+}
+
+div:hover{
+    transform: rotateZ(240deg);
+    background-color: blueviolet;
+    cursor: grabbing;
+
+}

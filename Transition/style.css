@@ -1,0 +1,28 @@
+h1 {
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 2;
+    text-align: center;
+    border: 2px solid burlywood;
+}
+
+div {
+    height: 200px;
+    width: 180px;
+    border: 1px solid black;
+    background-color: palevioletred;
+    /* justify-content: center; */
+    margin: auto;
+    margin-top: 200px;
+    transition-duration: 200ms;
+    transition-property: all;
+    transition-delay: 100ms;
+}
+
+div:hover {
+    /* transition: cubic-bezier(0.455, 0.03, 0.515, 0.955); */
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: palegoldenrod;
+    transition: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
